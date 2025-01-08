@@ -49,7 +49,7 @@ for i in range(2,10):
         print(f"{i}x{j}={i*j}")
 
 # 별찍기
-for i in range(3):  #세로
+for i in range(3):  #세로 (0,n)경우 0 생략가능
     print("")
     for j in range(5):  #가로
         print("*", end ="")
