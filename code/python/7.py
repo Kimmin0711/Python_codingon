@@ -43,8 +43,8 @@ s3 = s2.difference(s1)
 print(s3)
 
 # in 키워드
-print(1 in s1)
-print(100 in s1)
+print(1 in s1)  # s1안에 1이 있으니 True
+print(100 in s1)  # s1안에 100이 없으니 Flase
 
 # len()
-print(len(s1))
+print(len(s1))  # 요소 개수 세기기
